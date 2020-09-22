@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82D72D4E251AC5B4008B844D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D4D251AC5B3008B844D /* AppDelegate.swift */; };
+		82D72D50251AC5B4008B844D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D4F251AC5B4008B844D /* SceneDelegate.swift */; };
+		82D72D52251AC5B4008B844D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D51251AC5B4008B844D /* ViewController.swift */; };
+		82D72D55251AC5B4008B844D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D72D53251AC5B4008B844D /* Main.storyboard */; };
+		82D72D57251AC5B7008B844D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D72D56251AC5B7008B844D /* Assets.xcassets */; };
+		82D72D5A251AC5B7008B844D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D72D58251AC5B7008B844D /* LaunchScreen.storyboard */; };
+		82D72D65251AC5B8008B844D /* GmailCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D64251AC5B8008B844D /* GmailCloneTests.swift */; };
+		82D72D70251AC5B8008B844D /* GmailCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D6F251AC5B8008B844D /* GmailCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82D72D61251AC5B8008B844D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D72D42251AC5B3008B844D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D72D49251AC5B3008B844D;
+			remoteInfo = GmailClone;
+		};
+		82D72D6C251AC5B8008B844D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82D72D42251AC5B3008B844D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82D72D49251AC5B3008B844D;
+			remoteInfo = GmailClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82D72D4A251AC5B3008B844D /* GmailClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GmailClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D72D4D251AC5B3008B844D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82D72D4F251AC5B4008B844D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		82D72D51251AC5B4008B844D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82D72D54251AC5B4008B844D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82D72D56251AC5B7008B844D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82D72D59251AC5B7008B844D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82D72D5B251AC5B7008B844D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D72D60251AC5B8008B844D /* GmailCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GmailCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D72D64251AC5B8008B844D /* GmailCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailCloneTests.swift; sourceTree = "<group>"; };
+		82D72D66251AC5B8008B844D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D72D6B251AC5B8008B844D /* GmailCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GmailCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82D72D6F251AC5B8008B844D /* GmailCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailCloneUITests.swift; sourceTree = "<group>"; };
+		82D72D71251AC5B8008B844D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82D72D47251AC5B3008B844D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D72D5D251AC5B8008B844D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D72D68251AC5B8008B844D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82D72D41251AC5B3008B844D = {
+			isa = PBXGroup;
+			children = (
+				82D72D4C251AC5B3008B844D /* GmailClone */,
+				82D72D63251AC5B8008B844D /* GmailCloneTests */,
+				82D72D6E251AC5B8008B844D /* GmailCloneUITests */,
+				82D72D4B251AC5B3008B844D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82D72D4B251AC5B3008B844D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82D72D4A251AC5B3008B844D /* GmailClone.app */,
+				82D72D60251AC5B8008B844D /* GmailCloneTests.xctest */,
+				82D72D6B251AC5B8008B844D /* GmailCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82D72D4C251AC5B3008B844D /* GmailClone */ = {
+			isa = PBXGroup;
+			children = (
+				82D72D4D251AC5B3008B844D /* AppDelegate.swift */,
+				82D72D4F251AC5B4008B844D /* SceneDelegate.swift */,
+				82D72D51251AC5B4008B844D /* ViewController.swift */,
+				82D72D53251AC5B4008B844D /* Main.storyboard */,
+				82D72D56251AC5B7008B844D /* Assets.xcassets */,
+				82D72D58251AC5B7008B844D /* LaunchScreen.storyboard */,
+				82D72D5B251AC5B7008B844D /* Info.plist */,
+			);
+			path = GmailClone;
+			sourceTree = "<group>";
+		};
+		82D72D63251AC5B8008B844D /* GmailCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				82D72D64251AC5B8008B844D /* GmailCloneTests.swift */,
+				82D72D66251AC5B8008B844D /* Info.plist */,
+			);
+			path = GmailCloneTests;
+			sourceTree = "<group>";
+		};
+		82D72D6E251AC5B8008B844D /* GmailCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82D72D6F251AC5B8008B844D /* GmailCloneUITests.swift */,
+				82D72D71251AC5B8008B844D /* Info.plist */,
+			);
+			path = GmailCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82D72D49251AC5B3008B844D /* GmailClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D72D74251AC5B8008B844D /* Build configuration list for PBXNativeTarget "GmailClone" */;
+			buildPhases = (
+				82D72D46251AC5B3008B844D /* Sources */,
+				82D72D47251AC5B3008B844D /* Frameworks */,
+				82D72D48251AC5B3008B844D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GmailClone;
+			productName = GmailClone;
+			productReference = 82D72D4A251AC5B3008B844D /* GmailClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82D72D5F251AC5B8008B844D /* GmailCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D72D77251AC5B8008B844D /* Build configuration list for PBXNativeTarget "GmailCloneTests" */;
+			buildPhases = (
+				82D72D5C251AC5B8008B844D /* Sources */,
+				82D72D5D251AC5B8008B844D /* Frameworks */,
+				82D72D5E251AC5B8008B844D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D72D62251AC5B8008B844D /* PBXTargetDependency */,
+			);
+			name = GmailCloneTests;
+			productName = GmailCloneTests;
+			productReference = 82D72D60251AC5B8008B844D /* GmailCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82D72D6A251AC5B8008B844D /* GmailCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82D72D7A251AC5B8008B844D /* Build configuration list for PBXNativeTarget "GmailCloneUITests" */;
+			buildPhases = (
+				82D72D67251AC5B8008B844D /* Sources */,
+				82D72D68251AC5B8008B844D /* Frameworks */,
+				82D72D69251AC5B8008B844D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82D72D6D251AC5B8008B844D /* PBXTargetDependency */,
+			);
+			name = GmailCloneUITests;
+			productName = GmailCloneUITests;
+			productReference = 82D72D6B251AC5B8008B844D /* GmailCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82D72D42251AC5B3008B844D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					82D72D49251AC5B3008B844D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					82D72D5F251AC5B8008B844D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 82D72D49251AC5B3008B844D;
+					};
+					82D72D6A251AC5B8008B844D = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 82D72D49251AC5B3008B844D;
+					};
+				};
+			};
+			buildConfigurationList = 82D72D45251AC5B3008B844D /* Build configuration list for PBXProject "GmailClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82D72D41251AC5B3008B844D;
+			productRefGroup = 82D72D4B251AC5B3008B844D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82D72D49251AC5B3008B844D /* GmailClone */,
+				82D72D5F251AC5B8008B844D /* GmailCloneTests */,
+				82D72D6A251AC5B8008B844D /* GmailCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82D72D48251AC5B3008B844D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D72D5A251AC5B7008B844D /* LaunchScreen.storyboard in Resources */,
+				82D72D57251AC5B7008B844D /* Assets.xcassets in Resources */,
+				82D72D55251AC5B4008B844D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D72D5E251AC5B8008B844D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D72D69251AC5B8008B844D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82D72D46251AC5B3008B844D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D72D52251AC5B4008B844D /* ViewController.swift in Sources */,
+				82D72D4E251AC5B4008B844D /* AppDelegate.swift in Sources */,
+				82D72D50251AC5B4008B844D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D72D5C251AC5B8008B844D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D72D65251AC5B8008B844D /* GmailCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82D72D67251AC5B8008B844D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D72D70251AC5B8008B844D /* GmailCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82D72D62251AC5B8008B844D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D72D49251AC5B3008B844D /* GmailClone */;
+			targetProxy = 82D72D61251AC5B8008B844D /* PBXContainerItemProxy */;
+		};
+		82D72D6D251AC5B8008B844D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82D72D49251AC5B3008B844D /* GmailClone */;
+			targetProxy = 82D72D6C251AC5B8008B844D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82D72D53251AC5B4008B844D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D72D54251AC5B4008B844D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82D72D58251AC5B7008B844D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82D72D59251AC5B7008B844D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82D72D72251AC5B8008B844D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82D72D73251AC5B8008B844D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82D72D75251AC5B8008B844D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = GmailClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.doh.GmailClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82D72D76251AC5B8008B844D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = GmailClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.doh.GmailClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82D72D78251AC5B8008B844D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = GmailCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.doh.GmailCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GmailClone.app/GmailClone";
+			};
+			name = Debug;
+		};
+		82D72D79251AC5B8008B844D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = GmailCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.doh.GmailCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GmailClone.app/GmailClone";
+			};
+			name = Release;
+		};
+		82D72D7B251AC5B8008B844D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = GmailCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.doh.GmailCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GmailClone;
+			};
+			name = Debug;
+		};
+		82D72D7C251AC5B8008B844D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DZHAL8F38Z;
+				INFOPLIST_FILE = GmailCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.doh.GmailCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GmailClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82D72D45251AC5B3008B844D /* Build configuration list for PBXProject "GmailClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D72D72251AC5B8008B844D /* Debug */,
+				82D72D73251AC5B8008B844D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D72D74251AC5B8008B844D /* Build configuration list for PBXNativeTarget "GmailClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D72D75251AC5B8008B844D /* Debug */,
+				82D72D76251AC5B8008B844D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D72D77251AC5B8008B844D /* Build configuration list for PBXNativeTarget "GmailCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D72D78251AC5B8008B844D /* Debug */,
+				82D72D79251AC5B8008B844D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82D72D7A251AC5B8008B844D /* Build configuration list for PBXNativeTarget "GmailCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D72D7B251AC5B8008B844D /* Debug */,
+				82D72D7C251AC5B8008B844D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82D72D42251AC5B3008B844D /* Project object */;
+}

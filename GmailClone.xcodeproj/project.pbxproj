@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82268519251CEB1800D54C4A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82268518251CEB1800D54C4A /* Protocols.swift */; };
 		82D72D4E251AC5B4008B844D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D4D251AC5B3008B844D /* AppDelegate.swift */; };
 		82D72D50251AC5B4008B844D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D4F251AC5B4008B844D /* SceneDelegate.swift */; };
 		82D72D52251AC5B4008B844D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D51251AC5B4008B844D /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		82D72D5A251AC5B7008B844D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D72D58251AC5B7008B844D /* LaunchScreen.storyboard */; };
 		82D72D65251AC5B8008B844D /* GmailCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D64251AC5B8008B844D /* GmailCloneTests.swift */; };
 		82D72D70251AC5B8008B844D /* GmailCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D6F251AC5B8008B844D /* GmailCloneUITests.swift */; };
+		82D72D84251AC92D008B844D /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D83251AC92D008B844D /* ContainerController.swift */; };
+		82D72D8A251ACB24008B844D /* MenuViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D89251ACB24008B844D /* MenuViewContainer.swift */; };
+		82D72D92251ACC2A008B844D /* HomeViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D91251ACC2A008B844D /* HomeViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82268518251CEB1800D54C4A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		82D72D4A251AC5B3008B844D /* GmailClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GmailClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D72D4D251AC5B3008B844D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D72D4F251AC5B4008B844D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		82D72D6B251AC5B8008B844D /* GmailCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GmailCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D72D6F251AC5B8008B844D /* GmailCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailCloneUITests.swift; sourceTree = "<group>"; };
 		82D72D71251AC5B8008B844D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82D72D83251AC92D008B844D /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		82D72D89251ACB24008B844D /* MenuViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewContainer.swift; sourceTree = "<group>"; };
+		82D72D91251ACC2A008B844D /* HomeViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82268517251CEAF300D54C4A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				82268518251CEB1800D54C4A /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		82D72D41251AC5B3008B844D = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +115,10 @@
 		82D72D4C251AC5B3008B844D /* GmailClone */ = {
 			isa = PBXGroup;
 			children = (
+				82268517251CEAF300D54C4A /* Utils */,
+				82D72D88251AC932008B844D /* Container */,
 				82D72D4D251AC5B3008B844D /* AppDelegate.swift */,
 				82D72D4F251AC5B4008B844D /* SceneDelegate.swift */,
-				82D72D51251AC5B4008B844D /* ViewController.swift */,
 				82D72D53251AC5B4008B844D /* Main.storyboard */,
 				82D72D56251AC5B7008B844D /* Assets.xcassets */,
 				82D72D58251AC5B7008B844D /* LaunchScreen.storyboard */,
@@ -126,6 +143,17 @@
 				82D72D71251AC5B8008B844D /* Info.plist */,
 			);
 			path = GmailCloneUITests;
+			sourceTree = "<group>";
+		};
+		82D72D88251AC932008B844D /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				82D72D83251AC92D008B844D /* ContainerController.swift */,
+				82D72D51251AC5B4008B844D /* ViewController.swift */,
+				82D72D89251ACB24008B844D /* MenuViewContainer.swift */,
+				82D72D91251ACC2A008B844D /* HomeViewContainer.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D72D8A251ACB24008B844D /* MenuViewContainer.swift in Sources */,
 				82D72D52251AC5B4008B844D /* ViewController.swift in Sources */,
+				82268519251CEB1800D54C4A /* Protocols.swift in Sources */,
 				82D72D4E251AC5B4008B844D /* AppDelegate.swift in Sources */,
 				82D72D50251AC5B4008B844D /* SceneDelegate.swift in Sources */,
+				82D72D92251ACC2A008B844D /* HomeViewContainer.swift in Sources */,
+				82D72D84251AC92D008B844D /* ContainerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,11 +30,14 @@ class MenuViewContainer: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(MenuContainerCell.self, forCellReuseIdentifier: identifier)
+        tableView.backgroundColor = .darkGray
+        tableView.separatorStyle = .none
+        tableView.rowHeight = 80
         view.addSubview(tableView)
-        addTableContrainst()
+        addTableContraint()
     }
 
-    fileprivate func addTableContrainst(){
+    fileprivate func addTableContraint(){
         var constraint = [NSLayoutConstraint]()
 //        viewRespectsSystemMinimumLayoutMargins = false // disable margin AL
 //        view.directionalLayoutMargins.trailing = 0.0

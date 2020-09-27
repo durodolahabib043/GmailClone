@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82268519251CEB1800D54C4A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82268518251CEB1800D54C4A /* Protocols.swift */; };
+		822685782520C4FF00D54C4A /* MenuContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822685772520C4FF00D54C4A /* MenuContainerCell.swift */; };
 		82D72D4E251AC5B4008B844D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D4D251AC5B3008B844D /* AppDelegate.swift */; };
 		82D72D50251AC5B4008B844D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D4F251AC5B4008B844D /* SceneDelegate.swift */; };
 		82D72D52251AC5B4008B844D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D51251AC5B4008B844D /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		82268518251CEB1800D54C4A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		822685772520C4FF00D54C4A /* MenuContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContainerCell.swift; sourceTree = "<group>"; };
 		82D72D4A251AC5B3008B844D /* GmailClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GmailClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D72D4D251AC5B3008B844D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D72D4F251AC5B4008B844D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,14 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		822685732520C35400D54C4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				822685772520C4FF00D54C4A /* MenuContainerCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		82D72D41251AC5B3008B844D = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 		82D72D4C251AC5B3008B844D /* GmailClone */ = {
 			isa = PBXGroup;
 			children = (
+				822685732520C35400D54C4A /* View */,
 				82268517251CEAF300D54C4A /* Utils */,
 				82D72D88251AC932008B844D /* Container */,
 				82D72D4D251AC5B3008B844D /* AppDelegate.swift */,
@@ -288,6 +299,7 @@
 			files = (
 				82D72D8A251ACB24008B844D /* MenuViewContainer.swift in Sources */,
 				82D72D52251AC5B4008B844D /* ViewController.swift in Sources */,
+				822685782520C4FF00D54C4A /* MenuContainerCell.swift in Sources */,
 				82268519251CEB1800D54C4A /* Protocols.swift in Sources */,
 				82D72D4E251AC5B4008B844D /* AppDelegate.swift in Sources */,
 				82D72D50251AC5B4008B844D /* SceneDelegate.swift in Sources */,
@@ -398,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -453,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -471,7 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZHAL8F38Z;
 				INFOPLIST_FILE = GmailClone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,7 +503,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DZHAL8F38Z;
 				INFOPLIST_FILE = GmailClone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -10,6 +10,7 @@
 		82268519251CEB1800D54C4A /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82268518251CEB1800D54C4A /* Protocols.swift */; };
 		822685782520C4FF00D54C4A /* MenuContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822685772520C4FF00D54C4A /* MenuContainerCell.swift */; };
 		822685872520D25500D54C4A /* MenuOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822685862520D25500D54C4A /* MenuOptions.swift */; };
+		8226858C25211DD000D54C4A /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8226858B25211DD000D54C4A /* SettingsController.swift */; };
 		82D72D4E251AC5B4008B844D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D4D251AC5B3008B844D /* AppDelegate.swift */; };
 		82D72D50251AC5B4008B844D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D4F251AC5B4008B844D /* SceneDelegate.swift */; };
 		82D72D52251AC5B4008B844D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D72D51251AC5B4008B844D /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		82268518251CEB1800D54C4A /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		822685772520C4FF00D54C4A /* MenuContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContainerCell.swift; sourceTree = "<group>"; };
 		822685862520D25500D54C4A /* MenuOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptions.swift; sourceTree = "<group>"; };
+		8226858B25211DD000D54C4A /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		82D72D4A251AC5B3008B844D /* GmailClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GmailClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D72D4D251AC5B3008B844D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82D72D4F251AC5B4008B844D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				82D72D51251AC5B4008B844D /* ViewController.swift */,
 				82D72D89251ACB24008B844D /* MenuViewContainer.swift */,
 				82D72D91251ACC2A008B844D /* HomeViewContainer.swift */,
+				8226858B25211DD000D54C4A /* SettingsController.swift */,
 			);
 			path = Container;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				82268519251CEB1800D54C4A /* Protocols.swift in Sources */,
 				82D72D4E251AC5B4008B844D /* AppDelegate.swift in Sources */,
 				82D72D50251AC5B4008B844D /* SceneDelegate.swift in Sources */,
+				8226858C25211DD000D54C4A /* SettingsController.swift in Sources */,
 				82D72D92251ACC2A008B844D /* HomeViewContainer.swift in Sources */,
 				82D72D84251AC92D008B844D /* ContainerController.swift in Sources */,
 				822685872520D25500D54C4A /* MenuOptions.swift in Sources */,

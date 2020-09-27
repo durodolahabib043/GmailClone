@@ -32,7 +32,6 @@ class HomeViewContainer: UIViewController {
     fileprivate func configureNavigationBar(){
         navigationController?.navigationBar.tintColor = .darkGray
         navigationController?.navigationBar.barStyle  = .blackOpaque
-
         navigationItem.title = "Side Menu"
 
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "hamburgerIcon")    , style: .plain, target: self, action: #selector(handleMenuToggle))

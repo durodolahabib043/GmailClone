@@ -14,6 +14,7 @@ class MenuViewContainer: UIViewController {
 
     //MARK:- init
     let tableView = UITableView()
+    var delegate: HomeControllerDelegate?
 
     //MARK:- propertise
 
@@ -39,8 +40,6 @@ class MenuViewContainer: UIViewController {
 
     fileprivate func addTableContraint(){
         var constraint = [NSLayoutConstraint]()
-//        viewRespectsSystemMinimumLayoutMargins = false // disable margin AL
-//        view.directionalLayoutMargins.trailing = 0.0
 
         //MARK: - tableView
         tableView.translatesAutoresizingMaskIntoConstraints = false// MAKE SURE TO ADD THIS AT ALL TIMES
@@ -62,7 +61,16 @@ extension MenuViewContainer : UITableViewDelegate , UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as! MenuContainerCell
+        let menu = MenuOption.init(rawValue: indexPath.row)
+
+        cell.cellLabel.text = menu?.description
+        cell.iconImageView.image = menu?.image
         return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //
+        let menu = MenuOption.init(rawValue: indexPath.row)
+        delegate?.handleMenuToggle(menuOption: menu)
     }
 
 

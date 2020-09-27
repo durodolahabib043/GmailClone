@@ -14,21 +14,19 @@ class MenuContainerCell: UITableViewCell {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFit
         iv.clipsToBounds = true
-        iv.backgroundColor = .red
         return iv
     }()
 
     var cellLabel : UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 16)
-        label.textAlignment = .left
+      //  label.textAlignment = .left
         label.textColor = .black
-        label.backgroundColor = .green
+        label.text = "Text sample"
         return label
 
     }()
     //MARK:- PROPERTIES
-
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         addSubview(iconImageView)
@@ -58,12 +56,12 @@ class MenuContainerCell: UITableViewCell {
         addSubview(stackView)
         stackView.translatesAutoresizingMaskIntoConstraints = false
 
-        constraints += [NSLayoutConstraint.init(item: stackView, attribute: .leading, relatedBy: .equal, toItem: safeAreaLayoutGuide, attribute: .leading, multiplier: 1.0, constant: 0.0)]
-        constraints += [NSLayoutConstraint.init(item: stackView, attribute: .top, relatedBy: .equal, toItem: safeAreaLayoutGuide, attribute: .top, multiplier: 1.0, constant: 0.0)]
+        constraints += [NSLayoutConstraint.init(item: stackView, attribute: .leading, relatedBy: .equal, toItem: safeAreaLayoutGuide, attribute: .leading, multiplier: 1.0, constant: 20.0)]
+        constraints += [NSLayoutConstraint.init(item: stackView, attribute: .top, relatedBy: .equal, toItem: self.contentView, attribute: .top, multiplier: 1.0, constant: 0.0)]
         constraints += [NSLayoutConstraint.init(item: stackView, attribute: .trailing, relatedBy: .equal, toItem: safeAreaLayoutGuide, attribute: .trailing, multiplier: 1.0, constant: 0.0)]
-        constraints += [NSLayoutConstraint.init(item: stackView, attribute: .bottom, relatedBy: .equal, toItem: safeAreaLayoutGuide, attribute: .bottom, multiplier: 1.0, constant: 0.0)]
+        constraints += [NSLayoutConstraint.init(item: stackView, attribute: .bottom, relatedBy: .equal, toItem: self.contentView, attribute: .bottom, multiplier: 1.0, constant: 0.0)]
 
-        constraints += [NSLayoutConstraint.init(item: iconImageView, attribute: .width, relatedBy: .equal, toItem: stackView, attribute: .width, multiplier: 1/4, constant: 0.0)]
+        constraints += [NSLayoutConstraint.init(item: iconImageView, attribute: .width, relatedBy: .equal, toItem: stackView, attribute: .width, multiplier: 1/7, constant: 0.0)]
 
         //add constraints
         NSLayoutConstraint.activate(constraints)

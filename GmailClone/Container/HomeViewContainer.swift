@@ -26,7 +26,7 @@ class HomeViewContainer: UIViewController {
 
     @objc func handleMenuToggle() {
         print("handleMenuToggle")
-        delegate?.handleMenuToggle()
+        delegate?.handleMenuToggle(menuOption: nil)
     }
 
     fileprivate func configureNavigationBar(){
